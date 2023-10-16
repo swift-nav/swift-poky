@@ -645,6 +645,7 @@ FILES:${PN} = " ${base_bindir}/* \
                 ${sysconfdir}/X11/xinit/xinitrc.d/* \
                 ${rootlibexecdir}/systemd/* \
                 ${rootlibdir}/systemd/libsystemd-core* \
+                ${rootlibdir}/cryptsetup/libcryptsetup-token-systemd-tpm2* \
                 ${libdir}/pam.d \
                 ${nonarch_libdir}/pam.d \
                 ${systemd_unitdir}/* \
